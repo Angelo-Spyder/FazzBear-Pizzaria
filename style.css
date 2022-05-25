@@ -1,11 +1,12 @@
 
 /*IMPORTANDO FONTES*/
 
-@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Cedarville+Cursive&family=Dancing+Script&display=swap');
 
 /*USO DAS FONTES
 font-family: 'Akshar', sans-serif;
 font-family: 'Cedarville Cursive', cursive;
+font-family: 'Dancing Script', cursive;
 */
 
 *{
@@ -72,5 +73,39 @@ font-family: 'Cedarville Cursive', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 22px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*CONTEUDO PRINCIPAL PRIMARIO*/
+
+.conteudo-primario{
+    padding: 10px;
+    background: #ece5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-primario-texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-primario-subtitulo{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.conteudo-primario-texto{
+    font-size: 22px;
+    font-family: 'Akshar', sans-serif;
+}
+.conteudo-primario-imagem{
+    width: 400px;
+}
+.imagem-pizza{
+    width: 100%;
 }
