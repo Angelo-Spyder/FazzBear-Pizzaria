@@ -1,0 +1,76 @@
+
+/*IMPORTANDO FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Cedarville+Cursive&display=swap');
+
+/*USO DAS FONTES
+font-family: 'Akshar', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*cabecalho*/
+
+.cabecalho{
+    background: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f1f1f1;
+    height: 100vh;
+}
+.cabecalho-principal{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Akshar', sans-serif;
+}
+.titulo-principal{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.lista-navegacao{
+    width: 400px;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+.lista-itens{
+    font-size: 20px;
+    padding: 3px;
+    transition: 0.2s;
+}
+.lista-itens:hover{
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+
+.cabecalho-conteudo{
+    background: rgba(0, 0, 0, 0.438);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.cabecalho-subtitulo{
+    font-size: 48px;
+    font-family: 'Akshar', sans-serif;
+   color: rgb(255, 145, 0);
+   border-bottom: 1px solid rgb(255, 145, 0);
+}
+.cabecalho-texto{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-family: 'Cedarville Cursive', cursive;
+}
