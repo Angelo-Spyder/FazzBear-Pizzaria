@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 678px){
+    .cabecalho-principal{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .lista-navegacao{
+        width: 400px;
+        flex-direction: column;
+    }
+    .lista-itens{
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .cabecalho-conteudo{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
+}
