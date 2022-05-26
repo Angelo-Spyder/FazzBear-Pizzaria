@@ -109,3 +109,37 @@ font-family: 'Dancing Script', cursive;
 .imagem-pizza{
     width: 100%;
 }
+
+/*CONTEUDO SECUNDARIO*/
+
+.conteudo-secundario{
+    background: url(img/background-secundario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #f1f1f1;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.conteudo-secundario-texto{
+    background: rgba(0, 0, 0, 0.438);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.conteudo-secundario-subtitulo{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 145, 0);
+}
+.conteudo-secundario-paragrafo{
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Akshar', sans-serif;
+}
