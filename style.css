@@ -76,31 +76,31 @@ font-family: 'Dancing Script', cursive;
     font-family: 'Dancing Script', cursive;
 }
 
-/*CONTEUDO PRINCIPAL PRIMARIO*/
+/*CONTEUDO PRIMARIO TERCIARIO E PENTA*/
 
-.conteudo-primario{
+.conteudo-descricao{
     padding: 10px;
     background: #ece5e5;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.conteudo-primario-texto{
+.conteudo-descricao-paragrafo{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 500px;
     justify-content: center;
     align-items: center;
 }
 
-.conteudo-primario-subtitulo{
+.conteudo-descricao-subtitulo{
     color: rgb(255, 145, 0);
     font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
     font-size: 30px;
     margin-bottom: 50px;
 }
-.conteudo-primario-texto{
+.conteudo-descricao-paragrafo{
     font-size: 22px;
     font-family: 'Akshar', sans-serif;
 }
@@ -111,7 +111,7 @@ font-family: 'Dancing Script', cursive;
     width: 100%;
 }
 
-/*CONTEUDO SECUNDARIO*/
+/*CONTEUDO SECUNDARIO E QUARTARIO*/
 
 .conteudo-secundario{
     background: url(img/background-secundario.jpg);
@@ -147,12 +147,6 @@ font-family: 'Dancing Script', cursive;
 
 /*CONTEUDO TERCIÁRIO*/
 
-.conteudo-terciario{
-    background: #ece5e5;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .conteudo-terciario-imagens{
     display: flex;
     flex-wrap: wrap;
@@ -161,23 +155,6 @@ font-family: 'Dancing Script', cursive;
 .conteudo-terciario-imagem{
     width: 200px;
     margin: 5px;
-}
-.conteudo-teciario-textos{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-.conteudo-terciario-subtitulo{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(255, 145, 0);
-}
-.conteudo-terciario-paragrafo{
-    font-size: 22px;
-    font-family: 'Akshar', sans-serif;
 }
 
 /*Conteudo-quartario*/
@@ -195,12 +172,6 @@ font-family: 'Dancing Script', cursive;
 
 /*CONTEUDO PENTA*/
 
-.conteudo-penta{
-    background: #ece5e5;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .conteudo-penta-imagens{
     display: flex;
     flex-wrap: wrap;
@@ -210,23 +181,6 @@ font-family: 'Dancing Script', cursive;
     width: 200px;
     height: 300px;
     margin: 10px;
-}
-.conteudo-penta-textos{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-.conteudo-penta-subtitulo{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(255, 145, 0);
-}
-.conteudo-penta-paragrafo{
-    font-size: 22px;
-    font-family: 'Akshar', sans-serif;
 }
 
 /*RODAPÉ */
