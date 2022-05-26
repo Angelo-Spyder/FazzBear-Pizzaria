@@ -249,3 +249,15 @@ font-family: 'Dancing Script', cursive;
     font-size: 22px;
     font-family: 'Akshar', sans-serif;
 }
+
+/*RODAPÉ */
+
+.rodape{
+    background: rgb(10, 0, 15);
+    color: #f1f1f1;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akshar', sans-serif;
+}
