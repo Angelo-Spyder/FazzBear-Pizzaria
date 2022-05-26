@@ -1,11 +1,14 @@
 
 @media screen and (max-width: 678px){
+    /*CABEÇALHO*/
     .cabecalho-principal{
+        padding: 0;
         flex-wrap: wrap;
         text-align: center;
+        flex-direction: column;
     }
     .lista-navegacao{
-        width: 400px;
+        width: 300px;
         flex-direction: column;
     }
     .lista-itens{
@@ -15,6 +18,27 @@
     .cabecalho-conteudo{
         width: 300px;
         height: 300px;
-        margin: 10px auto;
+        margin: 0 auto;
+    }
+
+    /*CONTEUDO DESCRIÇAO*/
+    .conteudo-descricao{
+        align-items: center;
+        flex-direction: column;
+    }
+    .conteudo-descricao-paragrafo{
+        flex-direction: column;
+        width: 100%;
+    }
+    /*BACKGROUND IMG*/
+    .conteudo-terciario-imagens{
+        justify-content: center;
+    }
+
+    .conteudo-penta-imagens{
+        justify-content: center;
+    }
+    .conteudo-penta-imagem{
+        width: 300px;
     }
 }
